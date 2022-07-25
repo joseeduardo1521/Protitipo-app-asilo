@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homes"
+    android:padding="15dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:id="@+id/Atos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nombre:"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Usuario"
+        android:textSize="18dp"
+        android:paddingEnd="8dp"
+    />
+        <TextView
+            android:id="@+id/mids"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Correo:"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Correo"
+        android:textSize="17dp"
+        android:paddingTop="15dp"
+       />
+
+        <TextView
+            android:id="@+id/dsms"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Edad:"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:id="@+id/TextViewEdad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:text="Edad"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/aksdjasd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sexo:"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:id="@+id/TextViewSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sexo"
+            android:paddingTop="15dp"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/asdjkads"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tipo de sangre:"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:id="@+id/textViewsangre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sangre"
+            android:paddingTop="15dp"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/asdjkasdxx"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Alergias:"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:id="@+id/textViewalergi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alergias"
+            android:paddingTop="15dp"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/qiueqiwuiasd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tratamientos:"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:id="@+id/textViewtrata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tratamientos"
+            android:paddingTop="15dp"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:id="@+id/asdansd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hora de administración:"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:id="@+id/textViewhora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hora"
+            android:paddingTop="15dp"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/ammss"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Estatus de administración:"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:id="@+id/textViewstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estatus"
+            android:paddingTop="15dp"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/mssiis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Habitación:"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:id="@+id/textViewroms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Habitación"
+            android:paddingTop="15dp"
+            android:textSize="17dp"/>
+        <TextView
+            android:id="@+id/mapss"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            />
+        <Button
+            android:id="@+id/btnOut"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cerrar Sesión"
+            android:background="@drawable/button_red"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/uwyq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/btnVisita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:background="@drawable/button_color"
+            android:text="Agendar visita" />
+
+
+    </LinearLayout>
+
+</ScrollView>
